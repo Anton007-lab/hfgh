@@ -1,0 +1,18 @@
+@import "reset.css";
+.vvv4 {
+  background: #000;
+  width: 100px;
+  height: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 2px
+}
+.menu_grid {
+  display: flex;
+align-items: flex-end;
+}
+.menu_grid_3 {
+  grid-column: col/ span 2;
+grid-row: row 1;
+  display: grid;
+}
